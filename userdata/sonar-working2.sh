@@ -125,3 +125,4 @@ systemctl enable nginx.service
 
 # Allow ports in firewall
 sudo ufw allow 80,9000,9001/tcp
+# MUST ADD CONTENT IN /etc/systemd/system/sonarqube.service file & then systemctl start sonarqube
